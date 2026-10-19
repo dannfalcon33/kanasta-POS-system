@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Título y Definición Principal del Sistema -->
+    <title>Kanasta POS — Abasto · Inventario · Caja</title>
+    <meta
+      name="description"
+      content="Kanasta POS es un sistema integral de punto de venta (POS) y control de inventario multimoneda diseñado para abastos, bodegones, minimarkets y comercios minoristas. Proporciona facturación ágil con doble denominación monetaria (Bolívares VES y Dólares USD según tasa oficial BCV), gestión integral de compras y proveedores, catálogo de productos con código de barras, control de existencias en tiempo real con kardex, arqueo de caja por turnos y reportes financieros."
+    />
+    <meta
+      name="keywords"
+      content="kanasta pos, punto de venta, inventario multimoneda, sistema pos abasto, facturacion venezuela, tasa bcv, arqueo de caja, compras proveedores, kardex existencias, codigo de barras, minimarket, supermercado, tauri pos"
+    />
+    <meta name="author" content="Kanasta POS Team" />
+    <meta name="application-name" content="Kanasta POS" />
+    <meta name="generator" content="Kanasta POS v2.0" />
+    <meta name="category" content="Business Application / Point of Sale" />
+    <meta name="classification" content="Sistema de Facturación, Inventario y Punto de Venta" />
+
+    <!-- Identidad de Marca y Favicon (Kanasta Emblem) -->
+    <link rel="icon" type="image/jpeg" href="/kanasta.jpg" />
+    <link rel="apple-touch-icon" href="/kanasta.jpg" />
+    <meta name="theme-color" content="#16a34a" />
+    <meta name="color-scheme" content="light" />
+
+    <!-- Optimización y Carga de Tipografías Oficiales de Marca (Outfit + Plus Jakarta Sans) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Metadatos Open Graph (Definición Semántica y Previsualización) -->
+    <meta property="og:type" content="application" />
+    <meta property="og:site_name" content="Kanasta POS" />
+    <meta property="og:title" content="Kanasta POS — Abasto · Inventario · Caja" />
+    <meta
+      property="og:description"
+      content="Sistema integral de punto de venta, inventario multimoneda (VES/USD), compras y caja para abastos y comercios."
+    />
+    <meta property="og:image" content="/kanasta.jpg" />
+    <meta property="og:locale" content="es_VE" />
+
+    <!-- Metadatos Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Kanasta POS — Abasto · Inventario · Caja" />
+    <meta
+      name="twitter:description"
+      content="Solución completa de Punto de Venta (POS) y control de inventario con doble denominación monetaria (Bs / USD)."
+    />
+    <meta name="twitter:image" content="/kanasta.jpg" />
+
+    <!-- Definición Estructurada JSON-LD (Schema.org SoftwareApplication) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "Kanasta POS",
+        "applicationCategory": "BusinessApplication",
+        "operatingSystem": "Windows, Linux, macOS, Web",
+        "softwareVersion": "2.0.0",
+        "description": "Sistema integral de punto de venta (POS) y control de inventario multimoneda diseñado para abastos, bodegones, minimarkets y comercios minoristas con doble denominación monetaria (VES/USD) y tasa oficial BCV.",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "featureList": [
+          "Punto de Venta (POS) ultrarrápido con soporte para escaneo de códigos de barra",
+          "Multimoneda nativa con conversión simultánea VES / USD según tasa BCV configurable",
+          "Catálogo de productos con departamentos, categorías, IVA exento o general y control de márgenes",
+          "Kardex y control de existencias en tiempo real con historial de movimientos y alertas de bajo stock",
+          "Gestión de órdenes de compra a proveedores con actualización automática de costo y existencias",
+          "Arqueo de caja por turno con desglose de métodos de pago (Efectivo VES/USD, Pago Móvil, Punto de Venta, Biopago)",
+          "Auditoría append-only y seguridad de roles (Administrador y Cajero)"
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/app/main.tsx"></script>
+  </body>
+</html>

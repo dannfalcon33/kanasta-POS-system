@@ -1,0 +1,67 @@
+# ==========================================
+# Kanasta - .gitignore
+# ==========================================
+
+# Environment variables & secrets
+.env
+*.env
+*.env.local
+*.env.*.local
+!*.env.example
+
+# .NET / C#
+bin/
+obj/
+[Dd]ebug/
+[Rr]elease/
+*.user
+*.userosscache
+*.suo
+*.userprefs
+.vs/
+_ReSharper*/
+*.dotCover
+appsettings.Production.json
+appsettings.Local.json
+
+# Node.js & Web
+node_modules/
+dist/
+dist-ssr/
+build/
+coverage/
+*.lcov
+.npm
+.eslintcache
+.stylelintcache
+*.tsbuildinfo
+
+# Tauri / Rust
+apps/desktop/src-tauri/target/
+**/src-tauri/target/
+
+# Database & local backups
+*.sql.bak
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs & Diagnostics
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Operating System files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# IDE & Editors
+.idea/
+*.swp
+*~
+*.bak
